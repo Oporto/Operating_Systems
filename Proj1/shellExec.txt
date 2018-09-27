@@ -1,0 +1,51 @@
+Script started on Thu 30 Aug 2018 06:47:54 PM UTC
+pedrovasconcellosoporto@penguin: ./doit
+==>ls
+commandExec.txt  doit  doit.cpp  shellExec.txt	testdir
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 7 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 3
+5 - Major Page Faults 0
+6 - Minor Page Faults 158
+7 - Maximum Reident Set Size used 2944 kb
+----------
+==>wc doit.cpp
+ 272 1259 9708 doit.cpp
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 5 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 5
+5 - Major Page Faults 0
+6 - Minor Page Faults 167
+7 - Maximum Reident Set Size used 2944 kb
+----------
+==>set prompt = newpromt:
+newpromt:cd testdir
+Changing directory to: testdir
+newpromt:ls
+testdir2
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 7 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 9
+5 - Major Page Faults 0
+6 - Minor Page Faults 178
+7 - Maximum Reident Set Size used 2944 kb
+----------
+newpromt:exit
+pedrovasconcellosoporto@penguin: exit
+
+Script done on Thu 30 Aug 2018 06:50:37 PM UTC

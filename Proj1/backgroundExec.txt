@@ -1,0 +1,40 @@
+pedrovasconcellosoporto@penguin: ./doit
+==>sleep 20 &
+[1] 973
+==>sleep 5 &
+[2] 975
+==>jobs
+[1] 973 sleep
+[2] 975 sleep
+==>
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 5004 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 35
+7 - Maximum Reident Set Size used 184 kb
+----------
+[2] 975 Completed
+==>jobs
+[1] 973 sleep
+==>
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 20005 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 35
+7 - Maximum Reident Set Size used 184 kb
+----------
+[1] 973 Completed
+==>exit
+pedrovasconcellosoporto@penguin: exit
+
+Script done on Thu 30 Aug 2018 07:21:59 PM UTC

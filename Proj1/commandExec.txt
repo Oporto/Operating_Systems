@@ -1,0 +1,46 @@
+Script started on Thu 30 Aug 2018 06:40:42 PM UTC
+pedrovasconcellosoporto@penguin: ./doit wc doit.cpp
+ 272 1259 9708 doit.cpp
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 6 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 157
+7 - Maximum Reident Set Size used 2904 kb
+----------
+pedrovasconcellosoporto@penguin: ./doit ls
+commandExec.txt  doit  doit.cpp  testdir
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 7 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 158
+7 - Maximum Reident Set Size used 2904 kb
+----------
+pedrovasconcellosoporto@penguin: ./doit not a command
+Invalid command
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 3 ms
+3 - Times Process was preempted involuntary 0
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 158
+7 - Maximum Reident Set Size used 2904 kb
+----------
+pedrovasconcellosoporto@penguin: exit
+
+Script done on Thu 30 Aug 2018 06:41:11 PM UTC

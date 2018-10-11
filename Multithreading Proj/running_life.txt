@@ -1,0 +1,245 @@
+Script started on Thu 27 Sep 2018 10:31:39 PM UTC
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3$ make life
+g++ life.cpp -o life -lpthread
+life.cpp: In function int main(int, char**):
+life.cpp:105:64: warning: cast to pointer from integer of different size [K-Wint-to-pointer-cast]
+       if (pthread_create(&threads[i], NULL, WorkerThread, (void *)i) != 0) {
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 5 test_large.txt 10
+
+ Generation 0:
+
+	 0 0 1 0 1 0 1
+	 1 0 1 1 1 1 1
+	 0 1 0 1 0 1 0
+	 1 0 0 0 0 1 1
+	 0 1 1 0 0 1 0
+	 0 0 1 1 1 0 0
+	 1 0 1 0 1 0 1
+	 0 0 1 0 1 0 1
+	 1 0 1 1 1 1 1
+	 0 1 0 1 0 1 0
+	 1 0 0 0 0 1 1
+	 0 1 1 0 0 1 0
+	 0 0 1 1 1 0 0
+	 1 0 1 0 1 0 1
+	 0 0 1 0 1 0 1
+	 1 0 1 1 1 1 1
+	 0 1 0 1 0 1 0
+	 1 0 0 0 0 1 1
+	 0 1 1 0 0 1 0
+	 0 0 1 1 1 0 0
+	 1 0 1 0 1 0 1
+
+
+
+ The game ended after 10 generations with:
+
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 1 1 0 0 0
+	 0 1 0 0 1 1 0
+	 0 1 1 0 1 1 0
+	 0 1 1 0 1 1 0
+	 0 0 0 1 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+	 0 0 0 0 0 0 0
+
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 6 test_empty.txt
+
+ Generation 0:
+
+	 0 0 0
+	 0 0 0
+	 0 0 0
+	 0 0 0
+
+
+
+ The game ended after 1 generations with:
+
+	 0 0 0
+	 0 0 0
+	 0 0 0
+	 0 0 0
+
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 7 test_full.txt 5
+
+ Generation 0:
+
+	 1 1 1 1
+	 1 1 1 1
+	 1 1 1 1
+	 1 1 1 1
+	 1 1 1 1
+
+
+
+ The game ended after 2 generations with:
+
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 7 test_full.txt 5 y
+
+ Generation 0:
+
+	 1 1 1 1
+	 1 1 1 1
+	 1 1 1 1
+	 1 1 1 1
+	 1 1 1 1
+
+
+
+ Generation 1:
+
+	 1 0 0 1
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+	 1 0 0 1
+
+
+
+ The game ended after 2 generations with:
+
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+	 0 0 0 0
+
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 7 test_repeat.txt 5 y y
+
+ Generation 0:
+
+	 0 1 1 0
+	 0 1 1 1
+	 0 1 1 0
+
+
+
+
+ Generation 1:
+
+	 0 1 0 1
+	 1 0 0 1
+	 0 1 0 1
+
+
+
+
+ Generation 2:
+
+	 0 0 1 0
+	 1 1 0 1
+	 0 0 1 0
+
+
+
+
+ Generation 3:
+
+	 0 1 1 0
+	 0 1 0 1
+	 0 1 1 0
+
+
+
+
+ Generation 4:
+
+	 0 1 1 0
+	 1 0 0 1
+	 0 1 1 0
+
+
+
+
+ The game ended after 5 generations with:
+
+	 0 1 1 0
+	 1 0 0 1
+	 0 1 1 0
+
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 7 test_repeat.txt 10 y y
+
+ Generation 0:
+
+	 0 1 1 0
+	 0 1 1 1
+	 0 1 1 0
+
+
+
+
+ Generation 1:
+
+	 0 1 0 1
+	 1 0 0 1
+	 0 1 0 1
+
+
+
+
+ Generation 2:
+
+	 0 0 1 0
+	 1 1 0 1
+	 0 0 1 0
+
+
+
+
+ Generation 3:
+
+	 0 1 1 0
+	 0 1 0 1
+	 0 1 1 0
+
+
+
+
+ Generation 4:
+
+	 0 1 1 0
+	 1 0 0 1
+	 0 1 1 0
+
+
+
+
+ The game ended after 5 generations with:
+
+	 0 1 1 0
+	 1 0 0 1
+	 0 1 1 0
+
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./life 7 test_too_large.txt 5 y y
+Past_MaxGrid: Success
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ exit
+
+Script done on Thu 27 Sep 2018 10:36:22 PM UTC

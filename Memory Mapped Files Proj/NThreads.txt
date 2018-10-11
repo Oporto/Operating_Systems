@@ -1,0 +1,79 @@
+Script started on Thu 11 Oct 2018 03:55:47 PM UTC
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread mmap[1P[1P[1@i[1@t[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kp1
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 10 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 172
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread p1[K2
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 10 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread p2[K4
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 15 ms
+3 - Times Process was preempted involuntary 3
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 172
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread p4[K8
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 18 ms
+3 - Times Process was preempted involuntary 3
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread p8[K16
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 2 ms
+2 - Wall Clock 22 ms
+3 - Times Process was preempted involuntary 4
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ exit
+
+Script done on Thu 11 Oct 2018 03:56:52 PM UTC

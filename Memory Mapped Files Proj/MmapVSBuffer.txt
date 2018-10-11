@@ -1,0 +1,364 @@
+Script started on Thu 11 Oct 2018 03:46:47 PM UTC
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ .do[K[K/doit /[K/search./search[C[C[C[C[C[C[Cstrings Mafe[K[Kkefile thread 1
+File size: 242 bytes.
+Occurrences of the string "thread": 0
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 12 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 171
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings Makefile thread 1[K1024
+File size: 242 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 8 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings Makefile thread 1024[K[K[K[K2048
+File size: 242 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 8 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings Makefile thread 2048[K[K[K[K4096
+File size: 242 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 5 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings Makefile thread 4096[K[K[K[K80192[1P192
+File size: 242 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 1 ms
+2 - Wall Clock 11 ms
+3 - Times Process was preempted involuntary 3
+4 - Times Process gave up CPU voluntary 3
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings Makefile thread 8192409620481024[K[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@e[1@a[1@r[1@c[1@h[1@s[1@t[1@r[1@i[1@n[1@g[1@s[1@.[1@c[1@p[1@p
+File size: 10552 bytes.
+Occurrences of the string "thread": 0
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 2 ms
+2 - Wall Clock 26 ms
+3 - Times Process was preempted involuntary 3
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 171
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings.cpp thread 1[K1024
+File size: 10552 bytes.
+Occurrences of the string "thread": 22
+
+--Statistics--
+
+1 - User Time 1 ms 
+  - System Time 0 ms
+2 - Wall Clock 13 ms
+3 - Times Process was preempted involuntary 4
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 172
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings.cpp thread 1024[K[K[K[K2048
+File size: 10552 bytes.
+Occurrences of the string "thread": 22
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 7 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings.cpp thread 2048[K[K[K[K4096
+File size: 10552 bytes.
+Occurrences of the string "thread": 22
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 10 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings.cpp thread 409620484096[K[K[K[K80[K192
+File size: 10552 bytes.
+Occurrences of the string "thread": 22
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 11 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings.cpp thread 8192409620481024[K[C[1P[1P[1P[1P
+File size: 20488 bytes.
+Occurrences of the string "thread": 0
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 49 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 173
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings thread 1[K1024
+File size: 20488 bytes.
+Occurrences of the string "thread": 9
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 1 ms
+2 - Wall Clock 6 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 168
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings thread 1024[K[K[K[K2048
+File size: 20488 bytes.
+Occurrences of the string "thread": 9
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 10 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings thread 2048[K[K[K[K4096
+File size: 20488 bytes.
+Occurrences of the string "thread": 9
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 8 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 169
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings thread 4096[K[K[K[K8192
+File size: 20488 bytes.
+Occurrences of the string "thread": 9
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 5 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings thread 8192409620481024[K.cpp thread 8192[7P thread 1[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@d[1@o[1@i[1@t
+File size: 45944 bytes.
+Occurrences of the string "thread": 0
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 79 ms
+3 - Times Process was preempted involuntary 4
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 172
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread 1[K1024
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 1 ms
+2 - Wall Clock 12 ms
+3 - Times Process was preempted involuntary 6
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread 1024[K[K[K[K2048
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 16 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 171
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread 2048[K[K[K[K4096
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 11 ms
+3 - Times Process was preempted involuntary 1
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 171
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread 4096[K[K[K[K8192
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 14 ms
+3 - Times Process was preempted involuntary 5
+4 - Times Process gave up CPU voluntary 2
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings doit thread 8192[1P[1P[1P[1P[1@M[1@a[1@k[1@e[1@f[1@i[1@l[1@e[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kmmap
+File size: 242 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 2 ms
+2 - Wall Clock 15 ms
+3 - Times Process was preempted involuntary 4
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 173
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings Makefile thread mmap[K[Kap[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@e[1@a[1@r[1@c[1@h[1@s[1@t[1@r[1@i[1@n[1@g[1@s[1@.[1@c[1@p[1@p
+File size: 10552 bytes.
+Occurrences of the string "thread": 22
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 1 ms
+2 - Wall Clock 14 ms
+3 - Times Process was preempted involuntary 5
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 170
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings.cpp thread mmap[1P[1P[1P[1P
+File size: 20488 bytes.
+Occurrences of the string "thread": 9
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 12 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 171
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ ./doit ./searchstrings searchstrings thread mmap[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@d[1@o[1@i[1@t
+File size: 45944 bytes.
+Occurrences of the string "thread": 1
+
+--Statistics--
+
+1 - User Time 0 ms 
+  - System Time 0 ms
+2 - Wall Clock 10 ms
+3 - Times Process was preempted involuntary 2
+4 - Times Process gave up CPU voluntary 1
+5 - Major Page Faults 0
+6 - Minor Page Faults 171
+7 - Maximum Reident Set Size used 2908 kb
+----------
+]0;pedrovasconcellosoporto@penguin: ~/OS/Proj4[01;32mpedrovasconcellosoporto@penguin[00m:[01;34m~/OS/Proj4[00m$ exit
+
+Script done on Thu 11 Oct 2018 03:52:30 PM UTC

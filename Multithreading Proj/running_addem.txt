@@ -1,0 +1,32 @@
+Script started on Thu 27 Sep 2018 10:27:32 PM UTC
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3$ make addem
+g++ addem.cpp -o addem -lpthread
+addem.cpp: In function int main(int, char**):
+addem.cpp:105:64: warning: cast to pointer from integer of different size [K-Wint-to-pointer-cast]
+       if (pthread_create(&threads[i], NULL, SumThread, (void *)i) != 0) {
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 10 100
+The total for 1 to 100 using 10 threads is 5050.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 10 1000
+The total for 1 to 100 using 10 threads is 500500.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 10 1234
+The total for 1 to 1234 using 10 threads is 761995.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 5 1234
+The total for 1 to 1234 using 5 threads is 761995.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 3 100
+The total for 1 to 100 using 3 threads is 5050.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 7 100
+The total for 1 to 100 using 7 threads is 5050.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ ./addem 15 100
+Addem has a limit of threads: 10
+The total for 1 to 100 using 10 threads is 5050.
+
+pedrovasconcellosoporto@penguin: ~/OS/Proj3 $ exit
+Script done on Thu 27 Sep 2018 10:28:20 PM UTC
